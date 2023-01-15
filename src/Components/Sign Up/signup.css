@@ -1,0 +1,51 @@
+
+    /* Add some styling for the header and form */
+    header {
+      background-color: #333;
+      color: white;
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+      width: 100%;
+    }
+    h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+    form {
+      position: absolute; /* Position the form absolutely */
+      top: 60px; /* Set the top edge of the form below the header */
+      right: 0; /* Set the right edge of the form to the right of the page */
+      width: 40%; /* Set the form to take up 40% of the screen width */
+      height: calc(100% - 60px); /* Set the form to take up the remaining height of the screen below the header */
+      margin: 0; /* Remove the default margin */
+      padding: 20px; /* Add some padding to the form */
+      box-sizing: border-box; /* Include the padding in the form's total width and height */
+      text-align: center; /* Center the form fields and button */
+    }
+    /* Style the form fields */
+    input[type="email"], input[type="password"], input[type="tel"] {
+      width: 100%; /* Make the fields take up the full width of the form */
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin: 8px 0;
+      display: inline-block;
+      font-size: 16px;
+    }
+    /* Style the submit button */
+    input[type="submit"] {
+      width: 100%; /* Make the button take up the full width of the form */
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
